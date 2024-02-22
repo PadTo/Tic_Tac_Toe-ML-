@@ -25,12 +25,13 @@ BEIGE_O = (242, 235, 211)  # Color of O's
 GRAY_X = (85, 85, 85)      # Color of X's
 BG_COLOR = (20, 189, 172)  # Color of the background
 BOARD_LINE_COLOR = (13, 161, 146)  # Color of the board lines
+BLACK = (0, 0, 0)
 
 
 # Offsets for different lines (drawing) __Scaling__
 OFFSET_X_AND_O = THIRD_OF_WIDTH // 5
 OFFSET_BOARD_LINES = HEIGHT // 40
-OFFSET_WINNING_LINES = HEIGHT // 8
+OFFSET_WINNING_LINES = HEIGHT // 50
 
 
 # Values to see if the rows or columns accumulate to the winning sum
