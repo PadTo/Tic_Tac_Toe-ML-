@@ -36,11 +36,11 @@ class Board:
         # Diagonal Wins
         # From the upper left to the lower right diagonal #
         if self.squares[0, 0] == self.squares[1, 1] == self.squares[2, 2] != 0:
-            return self.squares[0, 0], None, "asc"
+            return self.squares[0, 0], None, "des"
 
         # From the lower left to the upper right diagonal #
         if self.squares[2, 0] == self.squares[1, 1] == self.squares[0, 2] != 0:
-            return self.squares[2, 0], None, "des"
+            return self.squares[2, 0], None, "asc"
 
         return 0, 0, 0
 
@@ -140,6 +140,7 @@ class Game:
         self.show_lines()
         self.game_over = False
         self.board.reset_board()
+        self.current_player = 1
 
     def draw_figures(self, row, col, player):
 
@@ -300,9 +301,19 @@ def main():
 
                 if event.key == pygame.K_a:
                     game.game_mode = "AI"
+                    print("AI Mode Activated!")
 
                 if event.key == pygame.K_p:
                     game.game_mode = "PvP"
+                    print("PvP Mode Activated!")
+
+                if event.key == (pygame.K_0 or pygame.K_KP0):
+                    ai.level = 0
+                    print(f"AI level changed to {ai.level}!")
+
+                if event.key == (pygame.K_1 or pygame.K_KP1):
+                    ai.level = 1
+                    print(f"AI level changed to {ai.level}!")
 
             if event.type == pygame.MOUSEBUTTONDOWN and not game.game_over:
                 pos = event.pos
