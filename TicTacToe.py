@@ -346,6 +346,3 @@ def main():
                     game.draw_win_lines()  # Drawing Winning Lines
                     game.draw_victory(result if 1 <= result <=
                                       2 else 0)  # Victory Text
-
-
-main()

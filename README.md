@@ -22,5 +22,4 @@ Improved Tic Tac Toe version featuring a structured multi-class codebase, graphi
 
 ## How the Game Looks Like
 
-![Alt text for the image](/Game_1.png)
-![Alt text for the image](/Game_2.png)
+![Alt text for the image](/Game_Photo1.png)
