@@ -1,6 +1,6 @@
 # Tic Tac Toe with AI
 
-Enhance your classic Tic Tac Toe experience with this improved version featuring a structured multi-class codebase, graphical interface via Pygame, and challenging AI using the Minimax algorithm. Play against the machine or challenge a friend in PvP mode. Built with Python and open to contributions.
+Improved Tic Tac Toe  version featuring a structured multi-class codebase, graphical interface via Pygame, and challenging ML using the Minimax algorithm. 
 
 ## Quickstart
 - **Prerequisites**: Python 3.6+, Pygame, NumPy
@@ -15,6 +15,7 @@ Enhance your classic Tic Tac Toe experience with this improved version featuring
 ## Controls
 - Use the mouse to make moves
 - `R` for restart, `A` for AI mode, `P` for PvP mode
+- Choose the AI level by pressing '0' for a random ML and '1' for min max algorithm
 
 Contribute to the evolution of this project or fork it to create your twist. Licensed under MIT for open collaboration.
 
