@@ -90,7 +90,10 @@ class Game:
         if winner == 1:
             victory_text = "Player 1 wins!"
         elif winner == 2:
-            victory_text = "Player 2 wins!"
+            if self.game_mode == "PvP":
+                victory_text = "Player 2 wins!"
+            else:
+                victory_text = "AI wins!"
         elif winner == 0:
             victory_text = "It's a draw!"
 

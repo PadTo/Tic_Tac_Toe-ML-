@@ -1,7 +1,7 @@
 ####### Constants for the board heigh, width, colors, and thickness #######
 
-HEIGHT = 600
-WIDTH = 600
+HEIGHT = 800
+WIDTH = 800
 n = 3  # The square size (n x n) of the traditional tic-tac-toe game
 
 # Calculating the square dimensions of the board
