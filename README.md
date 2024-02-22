@@ -15,8 +15,4 @@ Improved Tic Tac Toe  version featuring a structured multi-class codebase, graph
 ## Controls
 - Use the mouse to make moves
 - `R` for restart, `A` for AI mode, `P` for PvP mode
-- Choose the AI level by pressing '0' for a random ML and '1' for min max algorithm
-
-Contribute to the evolution of this project or fork it to create your twist. Licensed under MIT for open collaboration.
-
-Enjoy and let the best strategist win!
+- Choose the AI level by pressing `0` for a random ML and `1` for min max algorithm
